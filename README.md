@@ -11,4 +11,5 @@ Only works if you want to go back to old Slack version on Mac Deskstop.
 
 And there ya go!
 
-You'll have to run it every time you **quit** Slack to see the updates. Just closing the window is fine.
+You'll have to run Step 3 (`sudo sh slack_beautify.sh`) every time you **quit** Slack to see the updates.
+Just closing the window is fine though.
