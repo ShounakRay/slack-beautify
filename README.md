@@ -10,3 +10,5 @@ Only works if you want to go back to old Slack version on Mac Deskstop.
 5. One instruction will show up on your terminal screen after some time. Be sure to follow it.
 
 And there ya go!
+
+You'll have to run it every time you **quit** Slack to see the updates. Just closing the window is fine.
