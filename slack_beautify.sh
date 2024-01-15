@@ -41,4 +41,4 @@ printf "↑↑↑↑↑ ↑↑↑↑↑ ↑↑↑↑↑\n\n"
 printf "Once you've entered that command above, you may close the Slack console that popped up\n"
 printf "and this terminal session where you've been seeing these messages.\n"
 
-printf "Script execution completed.\n"
+printf "Script execution completed.\n\n"
