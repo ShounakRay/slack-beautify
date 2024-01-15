@@ -3,6 +3,7 @@
 clear
 
 echo "Bash script starting..."
+printf "\n"
 
 echo "Quitting slack if it's already open"
 # Quit Slack
@@ -40,6 +41,6 @@ printf "↑↑↑↑↑ ↑↑↑↑↑ ↑↑↑↑↑\n\n"
 
 printf "Once you've entered that command above, you may close the Slack console that popped up\n"
 printf "and this terminal session where you've been seeing these messages. Note that you'll have\n"
-printf "to run this script every time you *Quit* slack. Just closing the window is fine.\n"
+printf "to run this script every time you *Quit* slack. Just closing the window is fine.\n\n"
 
-printf "Script execution completed.\n\n"
+printf "Script execution complete.\n\n"
