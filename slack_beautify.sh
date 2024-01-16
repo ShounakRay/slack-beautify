@@ -44,10 +44,10 @@ echo "Opening Slack console..."
 osascript -e 'tell application "System Events" to tell process "Slack" to keystroke "i" using {command down, option down}'
 
 # Wait for the developer console to open (adjust sleep time if needed)
-sleep 3
+sleep 5
 
 osascript -e "set volume output volume 20"
-say "Go back to terminal screen."
+say "Once you're done granting permissions, go back to terminal screen."
 sleep 2
 
 printf "\n\nFirst: On the top menu bar, click \"Console\" on the Developer Tools window that poppped up.\n"
