@@ -5,13 +5,19 @@ clear
 echo "Bash script starting..."
 printf "\n"
 
+sleep 1
+
 echo "> Your computer will automatically start opening windows and applications,"
 echo "> and focus away from this terminal screen, but you'll have to come back"
 echo "> to this screen to read some instructions."
 echo ""
 
+sleep 5
+
 echo "Don't touch your computer now."
 echo ""
+
+sleep 5
 
 echo "Quitting slack if it's already open..."
 # Quit Slack
@@ -40,9 +46,10 @@ sleep 3
 
 osascript -e "set volume output volume 20"
 say "Go back to terminal screen."
-sleep 1
+sleep 2
 
-printf "\nPlease enter the following JavaScript command in the Slack console (if it doesn't work the first time, just enter it again):\n"
+printf "\n\nFirst: On the top menu bar, click \"Console\" on the Developer Tools window that poppped up.\n"
+printf "Then: please enter the following JavaScript command in the Slack console (if it doesn't work the first time, just enter it again):\n"
 printf "↓↓↓↓↓ ↓↓↓↓↓ ↓↓↓↓↓\n\n"
 
 printf "localStorage.setItem(\"localConfig_v2\", localStorage.getItem(\"localConfig_v2\").replace(/\"is_unified_user_client_enabled\":true/g, '\"is_unified_user_client_enabled\":false')); location.reload();"
