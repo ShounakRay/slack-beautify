@@ -10,7 +10,7 @@ Only works if you want to go back to old Slack version on Mac Deskstop.
 
 <img src="permission.png?raw=true" width="250">
 
-5. If you have to provide further permissions on your system, just grant them.
+5. If you have to provide further permissions on your system, just grant them. You will have to restart from Step 2 if you had to provide any permissions.
 6. One instruction will show up on your terminal screen after some time. Be sure to follow it.
 
 And there ya go!
