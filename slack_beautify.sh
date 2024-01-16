@@ -2,6 +2,8 @@
 
 clear
 
+resize -s 30 150
+
 echo "Bash script starting..."
 printf "\n"
 
