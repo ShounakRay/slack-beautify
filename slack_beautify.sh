@@ -3,7 +3,7 @@
 clear
 
 resize -s 30 150
-
+sleep 1
 clear
 
 echo "Bash script starting..."
