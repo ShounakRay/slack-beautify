@@ -9,7 +9,7 @@ Only works if you want to go back to old Slack version on Mac Deskstop.
 4. Sit tight. Don't click around on your computer as this script runs.
 5. Note: *the first time you run this script, you may be asked to provide Accessibility permissions for Slack.*
 
-<img src="https://github.com/favicon.ico" width="48">
+<img src="permission.png?raw=true" width="48">
 
 7. One instruction will show up on your terminal screen after some time. Be sure to follow it.
 
