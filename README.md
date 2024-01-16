@@ -4,7 +4,7 @@ Only works if you want to go back to old Slack version on Mac Deskstop.
 
 # Instructions
 1. Open your terminal.
-2. Paste `sudo bash <(curl -s https://raw.githubusercontent.com/ShounakRay/slack-beautify/main/slack_beautify.sh)` and hit enter.
+2. Paste `bash <(curl -s https://raw.githubusercontent.com/ShounakRay/slack-beautify/main/slack_beautify.sh)` and hit enter.
 3. Sit tight. Don't click around on your computer as this script runs.
 4. Note: *the first time you run this script, you may be asked to provide a permissions to Terminal so it can mess around with Slack. Click OK.*
 <img src="permission.png?raw=true" width="250">
