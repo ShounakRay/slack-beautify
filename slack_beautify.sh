@@ -5,19 +5,19 @@ clear
 echo "Bash script starting..."
 printf "\n"
 
-sleep 1
+sleep 3
 
 echo "> Your computer will automatically start opening windows and applications,"
 echo "> and focus away from this terminal screen, but you'll have to come back"
 echo "> to this screen to read some instructions."
 echo ""
 
-sleep 5
+sleep 6
 
 echo "Don't touch your computer now."
 echo ""
 
-sleep 5
+sleep 6
 
 echo "Quitting slack if it's already open..."
 # Quit Slack
