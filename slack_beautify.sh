@@ -5,7 +5,7 @@ clear
 echo "Bash script starting..."
 printf "\n"
 
-sleep 3
+sleep 6
 
 echo "> Your computer will automatically start opening windows and applications,"
 echo "> and focus away from this terminal screen, but you'll have to come back"
