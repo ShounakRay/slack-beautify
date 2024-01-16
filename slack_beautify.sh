@@ -5,7 +5,15 @@ clear
 echo "Bash script starting..."
 printf "\n"
 
-echo "Quitting slack if it's already open"
+echo "> Your computer will automatically start opening windows and applications,"
+echo "> and focus away from this terminal screen, but you'll have to come back"
+echo "> to this screen to read some instructions."
+echo ""
+
+echo "Don't touch your computer now."
+echo ""
+
+echo "Quitting slack if it's already open..."
 # Quit Slack
 osascript -e 'quit app "Slack"'
 
@@ -29,6 +37,10 @@ osascript -e 'tell application "System Events" to tell process "Slack" to keystr
 
 # Wait for the developer console to open (adjust sleep time if needed)
 sleep 3
+
+osascript -e "set volume output volume 20"
+say "Go back to terminal screen."
+sleep 1
 
 printf "\nPlease enter the following JavaScript command in the Slack console (if it doesn't work the first time, just enter it again):\n"
 printf "↓↓↓↓↓ ↓↓↓↓↓ ↓↓↓↓↓\n\n"
